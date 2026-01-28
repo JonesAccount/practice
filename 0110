@@ -1,0 +1,9 @@
+v = "Happy user"
+vv = v == "Happy user"
+
+if not v:
+    print("Yes! [1]")
+    if v != "Happy user":
+        print("Yes! [2]")
+else:
+    print("Yes! [3]")
