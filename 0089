@@ -1,0 +1,5 @@
+color = input("Ваш дюбимый цвет: ")
+city = input("Ваш любимый город: ")
+car = input("Ваш любимая машина: ")
+
+print(color, city, car, sep=" ")
