@@ -1,0 +1,4 @@
+list = [3, 5, 4, 1, 3, 9]
+list.remove(3)
+
+print(list)
