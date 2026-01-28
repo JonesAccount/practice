@@ -1,0 +1,6 @@
+print("• РЕГИСТРАЦИЯ •", end="\n\n")
+
+name, surname, password = input("Имя: "), input("Фамилия: "), input("Пароль: ")
+
+print("\nЗапомните данные:")
+print(name, surname, password, sep="|")
