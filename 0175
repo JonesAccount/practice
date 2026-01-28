@@ -1,0 +1,17 @@
+family = ["Mother", "Father", "Daugther", "Son", "Grandfather", "Grandmother", "Sister", "Brother"]
+
+print(family[0:2])
+print("")
+print(family[2:4])
+print("")
+print(family[4:6])
+print("")
+print(family[6:8])
+print("")
+print(family[1:3])
+print("")
+print(family[3:7])
+print("")
+print(family[0:7])
+print("")
+print(family[1:8])
