@@ -1,0 +1,7 @@
+word = "knowledge"
+
+for i in word:
+    print(i)
+
+for i in " education":
+    print(i)
