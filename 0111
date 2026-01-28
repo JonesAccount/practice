@@ -1,0 +1,9 @@
+a = True
+b = False
+c = 5 == 5
+d = "code" != "code"
+
+print(not a)
+print(not b)
+print(not c)
+print(not d)
