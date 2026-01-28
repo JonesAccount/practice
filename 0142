@@ -1,0 +1,12 @@
+family = ["Mom", "Dad", "Brother", "Sister", "Grandfather", "Grangmother", "Son", "Daughter", "Wife", "Husband"]
+
+print(family[0])
+print(family[1])
+print(family[2])
+print(family[3])
+print(family[4])
+print(family[5])
+print(family[6])
+print(family[7])
+print(family[8])
+print(family[9])
