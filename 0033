@@ -1,0 +1,5 @@
+import pygame
+
+pygame.init()
+
+# Это команда, которая запускает pygame.
