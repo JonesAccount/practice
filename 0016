@@ -1,0 +1,6 @@
+a = int(input("Число 1: "))
+b = int(input("Число 2: "))
+
+print("\n", a, "+", b, "=", a + b, sep="", end="\n")
+
+print("Преобразование в строку: ", str(a) + str(b), sep="")
