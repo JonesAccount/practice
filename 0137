@@ -1,0 +1,19 @@
+songs = [
+"Runaway",
+"You are my sunshine",
+"Space song",
+"TATARKA"
+]
+
+playlist = input("Выберите песню из плэйлиста:\n1. Runaway\n2. You are my sunshine\n3. Space song\n4. TATARKA\n")
+
+if playlist == "1":
+    print("\nИграет песня:", songs[0], "🎧")
+elif playlist == "2":
+    print("\nИграет песня:", songs[1], "🎧")
+elif playlist == "3":
+    print("\nИграет песня:", songs[2], "🎧")
+elif playlist == "3":
+    print("\nИграет песня:", songs[3], "🎧")
+else:
+    print("\nОшибка в поиске")
