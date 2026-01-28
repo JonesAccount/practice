@@ -1,0 +1,8 @@
+print("GAME CLIKER!\n")
+click = int(input())
+
+for a in range(click):
+    print("+ 🪙")
+
+converter = str(click)
+print("\nYou've earned: " + converter)
