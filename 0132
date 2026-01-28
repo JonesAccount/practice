@@ -1,0 +1,6 @@
+a = True
+while a:
+    v = input()
+    if v == "o":
+        print("No!")
+        break
