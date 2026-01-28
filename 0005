@@ -1,0 +1,2 @@
+print("a", "b", "c", "d", sep="", end="")
+print("f", "g", "k", "l", sep="", end="\n\n\n\n")
