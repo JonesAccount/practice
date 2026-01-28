@@ -1,0 +1,4 @@
+list = ["YES", "YES"]
+list.insert(1, "NO")
+
+print(list)
