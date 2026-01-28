@@ -1,0 +1,7 @@
+correct = 8
+question = int(input("Guess the number between 1-10 😏\n"))
+
+while question != correct:
+    question = int(input())
+    
+print("\nThat's right, you won $1,000,000!")
