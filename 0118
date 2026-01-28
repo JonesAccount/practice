@@ -1,0 +1,24 @@
+secret_num = 1234
+secret_word = "killi"
+
+print("Добро пожаловать в Telegram!")
+
+password = int(input("Введите пароль: "))
+print(password)
+login = input("Введите логин: ")
+print(login)
+
+authorization_num = True if password == secret_num else False
+
+authorization_word = True if login == secret_word else False
+
+if authorization_num and authorization_word:
+    print("\nДоступ предоставлен ✅")
+elif authorization_num:
+    if not authorization_word:
+        print("\nЛогин неверный ❌")
+elif not authorization_num:
+    if authorization_word:
+        print("\nПароль неверный ❌")
+else:
+    print("Некорректный ввод.")
