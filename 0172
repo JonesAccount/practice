@@ -1,0 +1,9 @@
+num = [1, 32, 12]
+num.append(100)
+num.append("строка")
+num.append(25.1)
+num.append(True)
+
+print(num)
+
+# Метод append - используется для добавления нового элемента в конец списка.
