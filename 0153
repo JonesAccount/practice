@@ -1,0 +1,56 @@
+questionnaire = []
+print("СОСТАВИМ ТВОЮ АНКЕТУ 📝")
+
+name = input("\n1️⃣ КАК ТВОЕ ИМЯ?\n1. Рик 🧏🏻\n2. Мактрахер 😏\n3. Элли ✨\n")
+print("\nВыбрано: "+ name)
+
+if name == "1":
+    questionnaire.append("Рик 🧏🏻")
+elif name == "2":
+    questionnaire.append("Мактрахер 😏")
+elif name == "3":
+    questionnaire.append("Элли ✨")
+else:
+    print("\nНе правильный ввод ❌")
+    
+age = input("\n2️⃣ СКОЛЬКО ТЕБЕ ЛЕТ?\n1. Пиздюк 👶🏻\n2. Думер 🧒🏻\n3. Бумер 🧔🏻\n")
+print("\nВыбрано: "+ age)
+
+if age == "1":
+    questionnaire.append("Пиздюк 👶🏻")
+elif age == "2":
+    questionnaire.append("Думер 🧒🏻")
+elif age == "3":
+    questionnaire.append("Бумер 🧔🏻")
+else:
+    print("\nНе правильный ввод ❌")
+    
+race = input("\n3️⃣ КАКОЙ ТЫ РАСЫ?\n1. Негр 🇯🇲\n2. Китаёз 🇨🇳\n3. Американец 🇺🇸\n")
+print("\nВыбрано: "+ race)
+
+if race == "1":
+    questionnaire.append("Негр 🇯🇲")
+elif race == "2":
+    questionnaire.append("Китаёз 🇨🇳")
+elif race == "3":
+    questionnaire.append("Американец 🇺🇸")
+else:
+    print("\nНе правильный ввод ❌")
+    
+intelligence = input("\n4️⃣ ОЦЕНИ СВОЙ УМ:\n1. До жути тупой 🥴\n2. Иногда умный, иногда тупой 😶\n3. Мегамозг 🤓\n")
+print("\nВыбрано: "+ intelligence)
+
+if intelligence == "1":
+    questionnaire.append("До жути тупой 🥴")
+elif intelligence == "2":
+    questionnaire.append("Иногда умный, иногда тупой 😶")
+elif intelligence == "3":
+    questionnaire.append("Мегамозг 🤓")
+else:
+    print("\nНе правильный ввод ❌")
+
+print("\n📝 АНКЕТА ГОТОВА")
+print("ИМЯ: " + questionnaire[0])
+print("ВОЗРАСТ: " + questionnaire[1])
+print("РАСА: " + questionnaire[2])
+print("УМ: " + questionnaire[3])
