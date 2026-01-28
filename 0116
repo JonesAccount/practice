@@ -1,0 +1,7 @@
+print("ПРОМОУТЕР\n")
+leaf = int(input("Сколько личточек раздал? "))
+print(leaf)
+
+result = "\nМолодец!" if leaf > 20 else "\nУволен, ты бесполезный!"
+
+print(result)
