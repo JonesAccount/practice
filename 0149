@@ -1,0 +1,10 @@
+word = input("Введите любое слово из 5 букв: \n")
+print("\nДО: " + word)
+
+l1 = word[0]
+l2 = word[1]
+l3 = word[2]
+l4 = word[3]
+l5 = word[4]
+
+print("ПОСЛЕ: " + l5 + l4 + l3 + l2 + l1)
