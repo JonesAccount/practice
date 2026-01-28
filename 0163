@@ -1,0 +1,4 @@
+word = "sololearn"
+for i in word:
+    if i == "l":
+        print("Yes")
