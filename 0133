@@ -1,0 +1,9 @@
+for i in "word":
+    if i == "w":
+        print(i, "- world")
+    if i == "o":
+        print(i, "- outlast")
+    if i == "r":
+        print(i, "- runner")
+    if i == "d":
+        print(i, "- dream")
