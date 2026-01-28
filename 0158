@@ -1,0 +1,7 @@
+v = [1, 46, 21, 7]
+
+v.pop()
+v.pop()
+v.pop()
+
+print(v)
