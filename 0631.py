@@ -1,0 +1,5 @@
+data = (3, "apple", 7, "banana", 3, "apple", 10)
+print(data)
+data = set(data)
+data = tuple(data)
+print(data)
