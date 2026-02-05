@@ -1,10 +1,8 @@
-with open("0748.txt", "a+") as f:
-    while True:
-        el = input("Write: ")
-        if el == "0":
-            break
-        f.write(el + "\n")
-    lst = f.readlines()
-    f.seek(0)
-    for el in range(len(lst)):
-        print(lst[el])
+word = input("Введите новое слово для словаря: ")
+if word.isalpha():
+    print("Добавлено")
+else:
+    print("Только буквы!")
+    
+age = input("Твой возраст: ")
+print("Принято!") if age.isdigit() else print("Не то :(")

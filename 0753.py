@@ -1,7 +1,6 @@
-# число должно разделяться только на саму себя
+l = [4, 3, 7, 5, 8, 3, 5]
+print(l)
+l = set(l); l = list(l)
+print(l)
 
-n: int = int(input("Число: "))
-
-for i in range(n):
-    if n % 2 != 0:
-
+print(list("ABRACADABRA".lower()))
