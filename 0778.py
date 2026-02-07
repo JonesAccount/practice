@@ -1,4 +1,3 @@
-джонс.:
 from dataclasses import field
 
 import flet as ft
