@@ -1,0 +1,5 @@
+name = input("Имя: ")
+print(name.rstrip("o"))
+print(name.lstrip("a"))
+print(name.strip("a"))
+print(name.replace("b", "W"))
