@@ -1,0 +1,9 @@
+btn_plus = Button(
+    master=frm_page,
+    text="+",
+    font=("Arial", 10),
+    fg="white",
+    bg="#8B008B",
+    width=20,
+    height=10,
+    activebackground="#8B008B")
