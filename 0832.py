@@ -6,7 +6,7 @@ window = Tk()
 window.title("Program")
 window.config(bg="black")
 window.geometry("800x800")
-window.resizable(0, 0)
+window.resizable(1, 1)
 
 
 # ----------Variable----------
