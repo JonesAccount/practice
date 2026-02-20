@@ -1,0 +1,1 @@
+L = [i for i in input("Пиши: ")]; print(L)
