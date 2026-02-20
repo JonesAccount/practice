@@ -1,0 +1,1 @@
+n = 10; l = [i ** 2 for i in range(n)]; print(l)
