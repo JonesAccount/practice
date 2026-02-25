@@ -1,0 +1,1 @@
+w = "d0rover12"; print("digits" if w.isdigit() else "notdigits")
