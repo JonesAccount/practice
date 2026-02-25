@@ -1,0 +1,1 @@
+w = "python"; print("letters" if w.isalpha() else "notletters")
