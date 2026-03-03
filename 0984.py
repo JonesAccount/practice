@@ -1,0 +1,1 @@
+print((lambda a=3, b=2: pow(a, b))())
